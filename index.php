@@ -14,9 +14,9 @@
              <div class="header-menu">
              <i class="fas-fa-bars"></i>
               <ul>
-               <li><a href="student/Login.php"><i class="fas fa-users"><p>Student</p></i></a></li>
-               <li><a href="faculty/Login.php"><i class="fas fa-user-graduate"><p>Faculty</p></i></a></li>
-               <li><a href="admin/Login.php"><i class="fas fa-user-lock"><p>Admin</p></i></a></li>
+               <li><a href="student/login.php"><i class="fas fa-users"><p>Student</p></i></a></li>
+               <li><a href="faculty/login.php"><i class="fas fa-user-graduate"><p>Faculty</p></i></a></li>
+               <li><a href="admin/login.php"><i class="fas fa-user-lock"><p>Admin</p></i></a></li>
                <li><a href="#"><i class="fas fa-exclamation-circle"><p>About us</p></i></a></li>
                <li><a href="#"><i class="fas fa-question-circle"><p>Help</p></i></a></li>
               </ul>

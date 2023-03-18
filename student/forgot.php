@@ -15,7 +15,7 @@ require '../db/dbcon.php';
     rel="stylesheet">
 </head>
   <body>
-   <form action="Forgot.php" method="post">
+   <form action="forgot.php" method="post">
 	<div class="box">
 	 <h1>Forgot-Password</h1>
      
@@ -31,7 +31,7 @@ require '../db/dbcon.php';
             </button>
          
             <div class="link">
-                <a href="Login.php">Login here</a>
+                <a href="login.php">Login here</a>
             </div>
      <div class="heading">
             <h2>Forgot Password </h2>

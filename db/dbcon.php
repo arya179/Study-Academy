@@ -1,7 +1,8 @@
 <?php
 $server="localhost";
 $user="root";
-$password="";
+// $password="";
+$password="root";
 $database="sa";
 
 $con=mysqli_connect($server, $user, $password, $database);

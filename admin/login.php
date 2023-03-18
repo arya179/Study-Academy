@@ -25,9 +25,10 @@ if (isset($_POST['blogin']) && $_SERVER["REQUEST_METHOD"] == "POST")
     $password= safe_string($_POST['password']);
     
     
-    $q="SELECT * from admin where email='$email'";
+    $q="SELECT * from admin where email='".$email."'";
       
     $result=mysqli_query($con,$q);
+    // var_dump(mysqli_error($con));
     $num=mysqli_num_rows($result);
     if($num==1)
     {   
@@ -44,7 +45,7 @@ if (isset($_POST['blogin']) && $_SERVER["REQUEST_METHOD"] == "POST")
     }
     }else{
         echo"<script> alert('Email or Password is invalid');</script>";
-        header('location:Login.php');
+        header('location:login.php');
     }
   }
 ?>
@@ -88,7 +89,7 @@ if (isset($_POST['blogin']) && $_SERVER["REQUEST_METHOD"] == "POST")
             
 <!-- forgot link  -->
             <div class="link">
-                <a href="Forgot.php">Forgot Password?</a>
+                <a href="forgot.php">Forgot Password?</a>
             </div>
            <button class="btn" type="submit" name="blogin">
                 <span>Login </span>

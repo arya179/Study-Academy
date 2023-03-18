@@ -40,19 +40,19 @@ require '../db/dbcon.php';
             
 <!-- forgot link  -->
             <div class="link">
-                <a href="Forgot.php">Forgot Password?</a>
+                <a href="forgot.php">Forgot Password?</a>
             </div>
            <button class="btn" type="submit" name="blogin">
                 <span>Login </span>
             </button>
             <div class='lin'><p>Not yet Register?
-            <a href="Registration.php">New Register</a>
+            <a href="registration.php">New Register</a>
             </p>
             </div>
-            <li><a href="../Index.php"><i class="fas fa-sign-out-alt"></i></a></li>
+            <li><a href="../index.php"><i class="fas fa-sign-out-alt"></i></a></li>
            </div>
 <!-- include js  -->
-        <script src="js/Login.js"></script>
+        <script src="js/login.js"></script>
         </form>
 <!-- text  -->
         <div class="heading">
